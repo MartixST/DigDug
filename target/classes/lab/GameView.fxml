@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab.GameControl">
+   <children>
+      <TableView fx:id="scoreTable" prefHeight="600.0" prefWidth="600.0" visible="false">
+        <columns>
+          <TableColumn fx:id="columnPlayer" prefWidth="300.79998779296875" text="Player" />
+          <TableColumn fx:id="columnScore" prefWidth="298.4000244140625" text="Score" />
+        </columns>
+      </TableView>
+      <Button fx:id="startGameButton" layoutX="280.0" layoutY="462.0" mnemonicParsing="false" onAction="#handleStartGameAction" text="Start" />
+      <Button fx:id="saveScoreButton" layoutX="261.0" layoutY="436.0" mnemonicParsing="false" text="Save Scores" />
+      <TextField fx:id="playerNameInput" alignment="CENTER" layoutX="226.0" layoutY="411.0" promptText="Player Name" />
+   </children>
+</AnchorPane>

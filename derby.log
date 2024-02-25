@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Feb 19 16:38:42 CET 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-018d-c204-fa12-0000091fbc50 
+on database directory memory:D:\Yandex\YandexDisk\Диск\Programming\Тоня\DigDug\scoreDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6f496d9f 
+Loaded from file:/C:/Users/vlads/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+java.vendor=Azul Systems, Inc.
+java.runtime.version=17.0.9+8-LTS
+user.dir=D:\Yandex\YandexDisk\Диск\Programming\Тоня\DigDug
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
